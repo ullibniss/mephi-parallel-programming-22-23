@@ -1,3 +1,6 @@
 .idea
 cmake-build-debug
 arrays_dir
+*.tar.xz
+*.tar.gz
+
