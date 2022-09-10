@@ -9,7 +9,7 @@ int main(int argc, char** argv)
     printf("OpenMP Version: %d\n", _OPENMP);
 #endif
 
-    const int count = 10000000;     ///< Number of array elements
+    const int count = 50000000;     ///< Number of array elements
     const int threads = omp_get_num_procs();         ///< Number of parallel threads to use
     const int random_seed = 920215; ///< RNG seed
 
