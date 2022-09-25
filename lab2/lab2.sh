@@ -7,6 +7,7 @@ then
   then
     mkdir arrays_dir
     echo "Created dir 'arrays_dir'"
+    echo "Generating arrays:"
     /bin/python3 array_gen.py
   fi
   gcc -fopenmp -o cmake-build-debug/lab2 lab2_parallel.c
@@ -15,3 +16,5 @@ else
 fi
 
 ./cmake-build-debug/lab2
+
+
